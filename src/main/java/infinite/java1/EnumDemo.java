@@ -24,6 +24,8 @@ public class EnumDemo {
 		for (Status s1 : ss) {
 			System.out.println(s1 + " : " + s1.ordinal());
 		}
+		
+		System.out.println(s.getClass().getSuperclass()); //class java.lang.Enum
 	}
 
 }

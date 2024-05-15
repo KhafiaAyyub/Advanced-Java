@@ -11,12 +11,11 @@ public class EnumifAndSwitch {
 		
 		Status s = Status.Success;
 		
+		//using switch case
 		switch(s) {
-		
 		case Running :
 			System.out.println("All good");
 			break;
-			
 		case Failed :
 			System.out.println("Try Again");
 			break;
@@ -27,10 +26,8 @@ public class EnumifAndSwitch {
 			System.out.println("None");
 			break;
 		}
-		
-		
-		
-		
+
+		//if - else if
 		if(s == Status.Running) {
 			System.out.println("All Good");
 		} else if(s == Status.Failed) {
