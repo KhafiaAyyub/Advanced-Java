@@ -19,3 +19,7 @@ public class LambdaExpressionWithReturn {
 		System.out.println(result + " is result");
 	}
 }
+
+//lambda expression only works with functional interface
+//if have multiple method - that's the confusion
+//we cannot use lambda expression with other interface
