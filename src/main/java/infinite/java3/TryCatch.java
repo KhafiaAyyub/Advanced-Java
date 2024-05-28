@@ -8,7 +8,7 @@ public class TryCatch {
 	public static void main(String[] args) {
 //		int i = 9; 
 //		int j = 18/i; //normal statement
-		int i= 4; 
+		int i= 0; 
 		int j = 0;
 		try {
 		 j=18/i;

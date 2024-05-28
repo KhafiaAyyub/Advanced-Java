@@ -15,12 +15,12 @@ public class Exception_throw_keyword {
 	try {
 		j=18/i;
 		if(j==0) {
-			throw new ArithmeticException("I don't want tp print zero");
+			throw new ArithmeticException("I don't want to print zero");
 		}
 //		System.out.println(j);
 	} catch(ArithmeticException e) {
 		j=18/1;
-		System.out.println("that's the default output... "+e);
+		System.out.println("that's the default output... "+ e);
 	} catch(Exception e) {
 		System.out.println("Something Went Wrong...");
 	}
